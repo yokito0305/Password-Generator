@@ -4,6 +4,7 @@ FOR /F "usebackq delims=" %%i in (`powershell -Command "& {[Environment]::GetFol
 chcp 65001
 
 @echo 終止程序中...
+@echo off
 taskkill /f /im password_generator_win.exe
 
 if exist "%DOCUMENTSDIR%\Password Generator\tmp" (
