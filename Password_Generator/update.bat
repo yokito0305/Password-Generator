@@ -61,5 +61,5 @@ if exist "%DOCUMENTSDIR%\Password Generator\tmp" (
 ) else (
     @echo 發生錯誤
     @echo off
+    pause
 )
-pause
